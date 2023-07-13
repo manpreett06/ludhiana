@@ -1,0 +1,99 @@
+.ceosong{display:none;}
+
+.carousel-inner p a{color:black !Important;}
+.dp, .dptl, .not-box,.not-box .no-block,.slideoverlayleftg20, .slideoverlayleft{display:none ;} 
+.dp{width:100%;}
+.slideoverlayleftg20{position: absolute;
+    right: 4px;
+    top: 73%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;border-radius: 45% !important;}
+	.slideoverlayleftg20 img{width:125px;border-radius:10px;}
+.modal-footer{display:block !important;}
+.icon-bar2{z-index:9999999999999999999 !Important;top:38%;}
+  .slideoverlay{    position: absolute;
+    right: -19px;
+    bottom: 0 !important;
+    z-index: 99;
+    width: 14%;}
+.slideoverlay img{    width: 100%;}
+
+.slideoverlay:hover img{opacity: 1;}    
+.item p a{color:black !important;}
+.owl-events p {
+    color: black;
+    padding: 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;font-size: 12px;
+    -webkit-box-orient: vertical;
+}
+
+
+.modal{z-index: 99999999999999999999999999999999999999999999 !important;}
+
+.modal-footerpop{position: absolute;top: 0;right: 0;}
+
+.owl-events .owl-item img{width:100% !important;border-radius:0px;}
+.owl-events .owl-item{background: aliceblue;}
+@media (min-width: 320px) and (max-width: 480px) {
+	
+		.slideoverlayleftg20 img{width:auto;}
+	.slideoverlayleftg20{position: absolute;
+    right: 4px;width:29%;
+    top: 41%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;border-radius: 20% !important;}
+.slideoverlayleftg20 img{    width: 100%;
+    opacity: 1;}
+
+.slideoverlay img {
+    width: 100%;
+    opacity: 1;
+    float: right;
+}
+
+ .slideoverlay{    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: 99;
+    width: 24%;}
+
+}
+
+
+.slideoverlayleft{position: absolute;
+    left: 0;
+    top: 73%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;border-radius: 45% !important;}
+.slideoverlayleft img{    width: 100%;
+    opacity: 1;}
+
+.slideoverlayleft:hover img{opacity: 1;}    
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.slideoverlayleft {
+    position: absolute;
+    left: 0;
+    width: 19%;
+    bottom: 0;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;
+}
+.slideoverlayleft img {
+    width: 100%;
+    opacity: 1;
+    float: left;
+}
+}
+  
